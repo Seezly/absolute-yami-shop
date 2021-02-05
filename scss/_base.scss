@@ -1,0 +1,55 @@
+@import url($font);
+
+html {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: $black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-weight: $thin;
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.orange {
+    color: $orange;
+}
