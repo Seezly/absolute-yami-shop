@@ -4,8 +4,11 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background: url('../../mainichi/bg1-8.png') no-repeat;
+    background-size: cover;
 
     &__nav {
+        display: flex;
         justify-content: space-around;
         width: 75%;
         position: fixed;
@@ -17,11 +20,19 @@
             justify-content: space-between;
             width: 60%;
             text-transform: uppercase;
+
+            a {
+                color: white;
+                font-weight: $thin;
+
+                &:hover {
+                    font-weight: $medium;
+                }
+            }
         }
     }
 
     &__phrase {
-        text-align: center;
-        text-transform: uppercase;
+        
     }
 }
