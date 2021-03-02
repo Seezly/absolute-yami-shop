@@ -1,3 +1,29 @@
 &__form {
-    
+    padding: 0 0 2.5em 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+
+    input,
+    textarea,
+    button {
+        width: 100%;
+        padding: 1em;
+        border-radius: 0.25em;
+    }
+
+    input {
+        outline: none;
+    }
+
+    button {
+        background-color: $orange;
+
+        &:hover {
+            background-color: $gray;
+        }
+    }
 }
