@@ -1,6 +1,20 @@
 .container{
     background-color: $dGray;
-    padding: 5em;
+
+    button {
+        border: none;
+        padding: 1em;
+        border-radius: 0.25em;
+        cursor: pointer;
+        font-weight: $bold;
+
+        &:hover {
+            color: $orange;
+            background-color: $gray;
+        }
+    }
 
     @import 'about';
+    @import 'stay';
+    @import 'merch';
 }

@@ -92,23 +92,135 @@ body {
 }
 .container {
   background-color: #121212;
-  padding: 5em;
+}
+.container button {
+  border: none;
+  padding: 1em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  font-weight: 700;
+}
+.container button:hover {
+  color: #FCA311;
+  background-color: #EDEDED;
 }
 .container__about {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  background: url("../../../stock/pexels-satoshi-hirayama-1633791.jpg") 52vw center no-repeat;
+  background-size: 40%;
+  padding: 5em;
 }
 .container__about .big-quote {
+  font-size: 3.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
   width: 35%;
 }
 .container__about__title {
   width: 15%;
 }
 .container__about p {
-  width: 25%;
-  margin-right: 25%;
+  width: 30%;
+  margin-right: 20%;
+  text-align: justify;
+}
+.container__stay {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FCA311;
+  padding: 2em;
+  box-shadow: inset 0 0 1em #000000dd;
+}
+.container__stay__title {
+  width: 50%;
+}
+.container__stay__form {
+  width: 50%;
+}
+.container__stay__form #email {
+  border: none;
+  padding: 1em;
+  border-radius: 0.25em;
+  width: 60%;
+}
+.container__stay__form button {
+  width: 30%;
+  background-color: #121212;
+  color: #FCA311;
+}
+.container__stay__form button:hover {
+  color: #121212;
+  background-color: #EDEDED;
+}
+.container__merch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2.5em 5em;
+}
+.container__merch button {
+  background-color: #FCA311;
+  width: 40%;
+  margin-top: 2em;
+}
+.container__merch__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 75%;
+}
+.container__merch__top__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+.container__merch__top__item__img {
+  width: 100%;
+  height: 10em;
+  margin: 0 0 2em 0;
+}
+.container__merch__top__item h3 {
+  margin: 0.5em 0;
+}
+.container__merch__top__item .cost {
+  padding: 0.5em 0;
+}
+.container__merch__top__item button {
+  margin: 1em 0;
+  background-color: #FCA311;
+  color: #121212;
+  width: 80%;
+}
+.container__merch__top__item button:hover {
+  color: #FCA311;
+  background-color: #EDEDED;
+}
+
+.footer {
+  background-color: #FCA311;
+  color: #EDEDED;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+}
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */
