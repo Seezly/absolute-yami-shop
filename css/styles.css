@@ -72,12 +72,19 @@ body {
 }
 .header__nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   width: 75%;
   position: fixed;
   top: 0;
   padding: 2.5em;
   z-index: 999;
+}
+.header__nav__logo {
+  position: absolute;
+  top: -0.25em;
+  left: 0;
+  width: 7.5em;
+  height: 7.5em;
 }
 .header__nav__nav-bar {
   display: flex;
@@ -353,8 +360,12 @@ body {
   align-items: center;
   width: 100%;
 }
+.footer h6 {
+  color: #121212;
+}
 .footer h6 a {
   font-weight: 900;
+  color: #121212;
 }
 
 /*# sourceMappingURL=styles.css.map */

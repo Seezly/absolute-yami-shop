@@ -14,7 +14,12 @@
         width: 100%;
     }
 
-    h6 a {
-        font-weight: $black;
+    h6 {
+        color: $dGray;
+
+        a {
+            font-weight: $black;
+            color: $dGray;
+        }
     }
 }
