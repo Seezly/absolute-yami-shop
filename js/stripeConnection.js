@@ -6,7 +6,7 @@ const fetchOptions = {
     }
 };
 
-let products, prices;
+export let products, prices;
 
 Promise.all(
     [fetch('https://api.stripe.com/v1/products', fetchOptions),
